@@ -1767,9 +1767,9 @@ MonoBehaviour:
   Animators: []
   EquippedAnimationParameter: 
   IdleAnimationParameter: 
-  StartAnimationParameter: RectangleMeleeAttackStart
+  StartAnimationParameter: 
   DelayBeforeUseAnimationParameter: 
-  SingleUseAnimationParameter: 
+  SingleUseAnimationParameter: RectangleMeleeAttackStart
   UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
   StopAnimationParameter: 
@@ -3251,7 +3251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2722c8e06c7fe46bbbd264ab655e2c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShootDistance: 3
+  ShootDistance: 2
   RaycastOriginOffset: {x: 0, y: 0}
   TargetLayerMask:
     serializedVersion: 2
