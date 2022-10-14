@@ -38,7 +38,7 @@ TagManager:
   - MidHeightOneWayPlatforms
   - Pushables
   - Stairs
-  - 
+  - NPC
   - 
   - 
   m_SortingLayers:
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Between
     uniqueID: 606350985
+    locked: 0
+  - name: NPC
+    uniqueID: 1485315817
     locked: 0
   - name: Player
     uniqueID: 2666359821
