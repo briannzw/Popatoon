@@ -1129,7 +1129,6 @@ MonoBehaviour:
   PlayerID: Player1
   PlayerIndex: 0
   CharacterPrefabs:
-  - {fileID: 11485350, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
   - {fileID: 5888174120103746797, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
   NextCharacterChoice: 0
   CurrentIndex: 0
@@ -3117,7 +3116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22470620, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -248
+      value: -248.00002
       objectReference: {fileID: 0}
     - target: {fileID: 22470620, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3145,7 +3144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22484756, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -186
+      value: -186.00002
       objectReference: {fileID: 0}
     - target: {fileID: 22484756, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3705,8 +3704,6 @@ GameObject:
   m_Component:
   - component: {fileID: 795836857}
   - component: {fileID: 795836856}
-  - component: {fileID: 795836858}
-  - component: {fileID: 795836859}
   m_Layer: 0
   m_Name: Background_01
   m_TagString: Untagged
@@ -3781,39 +3778,6 @@ Transform:
   m_Father: {fileID: 769273909}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &795836858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795836855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71978be820ec44066856f2b1df7bd818, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveParallax: 1
---- !u!95 &795836859
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795836855}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: de698f78646d4fe479ce795bd9680e7c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &805796091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 471364, guid: f58a667c8217aaf42b28e20ef609767b,
