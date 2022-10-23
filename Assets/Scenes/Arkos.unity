@@ -22892,7 +22892,7 @@ MonoBehaviour:
   ChanceToPlay: 100
   FeedbacksIntensity: 1
   Events:
-    TriggerMMFeedbacksEvents: 0
+    TriggerMMFeedbacksEvents: 1
     TriggerUnityEvents: 1
     OnPlay:
       m_PersistentCalls:
@@ -22956,8 +22956,8 @@ MonoBehaviour:
         TargetGameObject: {fileID: 2139075437}
         SetStateOnInit: 0
         StateOnInit: 1
-        SetStateOnPlay: 0
-        StateOnPlay: 1
+        SetStateOnPlay: 1
+        StateOnPlay: 0
         SetStateOnStop: 0
         StateOnStop: 1
         SetStateOnReset: 0
