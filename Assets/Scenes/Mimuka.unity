@@ -1126,7 +1126,7 @@ RectTransform:
   m_Children:
   - {fileID: 1509879392}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1684,7 +1684,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &253493690
 PrefabInstance:
@@ -1696,7 +1696,7 @@ PrefabInstance:
     - target: {fileID: 1844467417376146404, guid: 67e9e6648638ca94eaaa9e41373f42f2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1844467417376146404, guid: 67e9e6648638ca94eaaa9e41373f42f2,
         type: 3}
@@ -2988,6 +2988,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
+      propertyPath: CanMoveWhileTalking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
+        type: 3}
       propertyPath: Dialogue.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -3041,12 +3046,12 @@ PrefabInstance:
     - target: {fileID: 6169645693469421957, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: m_Size.x
-      value: 5.720134
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421957, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.082228065
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1882ac7f13ce5bc49b166470c439a69f, type: 3}
@@ -3071,7 +3076,7 @@ PrefabInstance:
     - target: {fileID: 644456293739753888, guid: 25a8eeb36a130e14f9418c8894b5d69e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 644456293739753888, guid: 25a8eeb36a130e14f9418c8894b5d69e,
         type: 3}
@@ -4096,7 +4101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22470620, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -247.99998
+      value: -248
       objectReference: {fileID: 0}
     - target: {fileID: 22470620, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5183,6 +5188,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 34831788, guid: d367285112803bf45a3a17b68f65c18e, type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1872845615721032, guid: d367285112803bf45a3a17b68f65c18e, type: 3}
       propertyPath: m_Name
       value: Archer
@@ -11518,7 +11527,7 @@ PrefabInstance:
     - target: {fileID: 747096888060811431, guid: 7c3f33d7727e8414c962c4b0400d7bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 747096888060811431, guid: 7c3f33d7727e8414c962c4b0400d7bfc,
         type: 3}
