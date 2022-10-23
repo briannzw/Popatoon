@@ -885,7 +885,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  RunSpeed: 16
+  RunSpeed: 10
   ReadInput: 1
   AutoRun: 0
   AutoRunThreshold: 0.6
