@@ -15,9 +15,9 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         float db;
-        if(mixer.GetFloat("SFX_VOL", out db))
+        if(mixer.GetFloat("SfxVolume", out db))
             SFXSlider.value = (db + 80) / 80;
-        if(mixer.GetFloat("BGM_VOL", out db))
+        if(mixer.GetFloat("MusicVolume", out db))
             BGMSlider.value = (db + 80) / 80;
     }
 
@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour
 
         value = value * 80 - 80;
 
-        mixer.SetFloat("SFX_VOL", value);
+        mixer.SetFloat("SfxVolume", value);
     }
     
     public void BGMVolume(float value)
@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
 
         value = value * 80 - 80;
 
-        mixer.SetFloat("BGM_VOL", value);
+        mixer.SetFloat("MusicVolume", value);
     }
 
 
