@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Arkos.unity
     guid: e8f8307edaa55b04c9a6ea92cdad7b54
   - enabled: 1
-    path: Assets/Scenes/Pusuk Buhit.unity
-    guid: 610237c44d80ac145ae2d081b4bf7d44
-  - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
   m_configObjects: {}
