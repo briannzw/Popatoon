@@ -35,7 +35,6 @@ GameObject:
   - component: {fileID: 7185943166699715102}
   - component: {fileID: 7942102971091067986}
   - component: {fileID: 1633181833857362488}
-  - component: {fileID: 2160375438279376960}
   m_Layer: 13
   m_Name: Spider
   m_TagString: Untagged
@@ -826,7 +825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WalkBehaviour: 0
   ChangeDirectionOnWall: 1
-  AvoidFalling: 0
+  AvoidFalling: 1
   HoleDetectionOffset: {x: 0, y: 0, z: 0}
   HoleDetectionRaycastLength: 1
   ViewDistance: 10
@@ -839,17 +838,3 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 264448
   ResetPositionOnDeath: 1
---- !u!114 &2160375438279376960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6589822270317346449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b1b16f7fd2d363458c514b44617608c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AutoRemoveAfterInitialization: 1
-  AddAnimationParametersButton: 0
