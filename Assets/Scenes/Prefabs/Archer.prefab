@@ -130,7 +130,7 @@ MonoBehaviour:
   TransitionTime: 0.2
   DistanceFromTop: 1
   BoxesFollowZone: 0
-  CanMoveWhileTalking: 0
+  CanMoveWhileTalking: 1
   ButtonHandled: 1
   MessageDuration: 3
   ActivableMoreThanOnce: 1
