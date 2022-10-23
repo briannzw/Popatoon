@@ -2966,12 +2966,12 @@ PrefabInstance:
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: DistanceFromTop
-      value: 1.5
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: Dialogue.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
@@ -2991,34 +2991,34 @@ PrefabInstance:
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: Dialogue.Array.data[3]
-      value: "Kalian harus melaluinya untuk \nsampai ke Pusuk Buhit"
+      value: "Kalian harus melalui \nhutan tersebut untuk \nsampai ke Pusuk Buhit"
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: Dialogue.Array.data[4]
-      value: "Konon legenda mengatakan \nHomang tinggal di hutan itu"
+      value: "Legenda pernah mengatakan \nHomang tinggal di hutan itu"
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: Dialogue.Array.data[5]
-      value: "Setelah sampai ke Pusuk Buhit \nkalian naik lah ke puncaknya \ndan
-        kalian akan melihat sebuah rumah"
+      value: "Konon di kaki patung \ntersebut terdapat sebuah \npustaka misterius
+        bernama \nTunggal Panaluan"
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: Dialogue.Array.data[6]
-      value: "Konon rumah tersebut memiliki sebuah \npustaka misterius bernama \nTunggal
-        Panaluan"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
-        type: 3}
-      propertyPath: Dialogue.Array.data[7]
       value: "Bisa jadi tongkat tersebut \nyang bisa membantu desa kita."
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: "Konon di kaki patung tersebut \nterdapat sebuah \npustaka misterius
+        bernama \nTunggal Panaluan"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
+        type: 3}
       propertyPath: Dialogue.Array.data[8]
-      value: Bisa jadi tongkat tersebut yang bisa membantu desa kita.
+      value: "Bisa jadi tongkat tersebut \nyang bisa membantu desa kita."
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421957, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
@@ -5144,6 +5144,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212191786350797168, guid: d367285112803bf45a3a17b68f65c18e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2de48eace8759ee44bec696af65abc70,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d367285112803bf45a3a17b68f65c18e, type: 3}
 --- !u!1 &889775627

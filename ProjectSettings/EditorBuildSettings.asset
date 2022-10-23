@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Mechanics.unity
+    path: Assets/Scenes/Mimuka.unity
     guid: 0e798b18f79a5f543a8962abd9cb8916
   - enabled: 1
     path: Assets/Scenes/Arkos.unity

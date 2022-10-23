@@ -244,7 +244,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 2de48eace8759ee44bec696af65abc70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b785743a99ca074891084337f9ca71d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -465,7 +465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187408000530908}
   m_LocalRotation: {x: 0, y: 0, z: 0.6948423, w: -0.71916217}
-  m_LocalPosition: {x: 4.834392, y: 3.4349453, z: -0.006}
+  m_LocalPosition: {x: 3.91, y: 2.66, z: -0.006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -513,7 +513,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: 21300000, guid: 9082eea8464abd0488aef05247410d15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a69bb3a9a300c164893b2da8b200e992, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
   RandomSpread: 0
-  SpawnPosition: {x: -8.510631, y: -2.6856997, z: -0.002321219}
+  SpawnPosition: {x: -82.63063, y: -7.3957, z: -0.002321219}
 --- !u!114 &8805350521163107555
 MonoBehaviour:
   m_ObjectHideFlags: 0
