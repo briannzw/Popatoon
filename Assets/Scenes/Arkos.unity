@@ -9095,6 +9095,10 @@ PrefabInstance:
       propertyPath: m_HDR
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400034, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Text
+      value: ARKOS
+      objectReference: {fileID: 0}
     - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -9150,6 +9154,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 4e2d84525aaf47e49bfb301159b29cde, type: 2}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: MouseMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11482182, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_Sprite
       value: 
