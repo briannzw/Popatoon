@@ -3945,6 +3945,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: dd34187a88ade554ba46c81d67835b8c,
         type: 3}
+    - target: {fileID: 11438570, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 65aceec32b94afd4e91d4c3e9fbbd604,
+        type: 3}
+    - target: {fileID: 11443438, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6127896e29801624b832c449d95d63f4,
+        type: 3}
     - target: {fileID: 11448332, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DashButtonPressed
