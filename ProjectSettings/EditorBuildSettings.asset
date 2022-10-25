@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Pusuk Buhit.unity
     guid: 610237c44d80ac145ae2d081b4bf7d44
   - enabled: 1
+    path: Assets/Scenes/Mimuka 2.unity
+    guid: c00987cb6101343409f6f47c0a312126
+  - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
   m_configObjects: {}
