@@ -100,6 +100,20 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
+--- !u!114 &-766348932087173998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba4bd496d6656d4da1541ce7071ed10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPosition: {x: 0, y: 0}
+  AnimationSpeed: {x: 1, y: 1}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -551,7 +565,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -766348932087173998}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -562,10 +577,10 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 74232893722226294, guid: 9ce48e29e0cfd33468a0c33861473476, type: 3}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: FlySpeed
   m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_CycleOffsetParameter: FlySpeed
+  m_TimeParameter: FlySpeed
 --- !u!1102 &1102427460767100232
 AnimatorState:
   serializedVersion: 6
@@ -899,19 +914,19 @@ AnimatorStateMachine:
     m_Position: {x: 270, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102315654345051112}
-    m_Position: {x: 305, y: 195, z: 0}
+    m_Position: {x: 310, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102064026476299498}
-    m_Position: {x: 340, y: 260, z: 0}
+    m_Position: {x: 370, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102763597312579548}
-    m_Position: {x: 375, y: 325, z: 0}
+    m_Position: {x: 400, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102895844280047232}
-    m_Position: {x: 410, y: 390, z: 0}
+    m_Position: {x: 410, y: 400, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102778419565083712}
-    m_Position: {x: 445, y: 455, z: 0}
+    m_Position: {x: 400, y: 460, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102973920763457764}
     m_Position: {x: 480, y: 520, z: 0}
@@ -926,7 +941,7 @@ AnimatorStateMachine:
     m_Position: {x: 585, y: 715, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102284171124885998}
-    m_Position: {x: 620, y: 780, z: 0}
+    m_Position: {x: 630, y: 780, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102968284723335806}
     m_Position: {x: 655, y: 845, z: 0}

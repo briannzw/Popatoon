@@ -3063,10 +3063,20 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[8]
       value: "Bisa jadi tongkat tersebut \nyang bisa membantu desa kita."
       objectReference: {fileID: 0}
+    - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
+        type: 3}
+      propertyPath: CanOnlyActivateIfGrounded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169645693469421954, guid: 1882ac7f13ce5bc49b166470c439a69f,
+        type: 3}
+      propertyPath: PreventJumpsWhileInThisZone
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421957, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
       propertyPath: m_Size.x
-      value: 6.03
+      value: 12.06
       objectReference: {fileID: 0}
     - target: {fileID: 6169645693469421957, guid: 1882ac7f13ce5bc49b166470c439a69f,
         type: 3}
@@ -3940,11 +3950,23 @@ PrefabInstance:
       propertyPath: m_HDR
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11401088, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: MouseMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410938, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: MouseMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dd34187a88ade554ba46c81d67835b8c,
         type: 3}
+    - target: {fileID: 11442912, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: MouseMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11448332, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DashButtonPressed
@@ -3995,6 +4017,26 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 4e2d84525aaf47e49bfb301159b29cde, type: 2}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: MouseMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShootButtonPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShootButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoreMountains.CorgiEngine.InputManager, MoreMountains.CorgiEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472170, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoreMountains.CorgiEngine.InputManager, MoreMountains.CorgiEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 11482182, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_Sprite
       value: 
